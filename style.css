@@ -1,0 +1,63 @@
+html {
+    display : flex;
+    flex-wrap : wrap;
+    box-sizing : border-box;
+    justify-content: center;
+    align-items: center;
+    font-size : 15px;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+}
+
+main.attribution {
+    display: flex;
+    justify-content: center;
+    align-items : center;
+    text-align: center;
+    background-color:  hsl(212, 45%, 89%);
+    width : 90vw;
+    height : 80vh;
+    box-shadow: 0.2rem 0.3rem 2rem rgba(0, 0, 0, 0.3);
+    margin : 10vh auto; 
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    font-size : 0.9rem;
+}
+
+.qr-contaner {
+    margin : auto;
+    background-color :  #fff;
+    border : none;
+    border-radius : 1.2em;
+    box-shadow : 0 0 1rem rgba(0, 0, 0, 0.2);
+    align-items: center;
+    width : 18rem;
+    
+}
+
+.img-custom {
+    margin: 1rem;
+    border-radius: 1.2em;
+    width : 90%;
+}
+
+p {
+    font-size : 1em;
+    font-weight : 700;
+}
+
+@media  (max-width : 375px) {
+
+    main.attribution {
+        width : 100vw;
+        height : 100vh;
+        margin : 0;
+    }
+}
